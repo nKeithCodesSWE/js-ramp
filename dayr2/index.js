@@ -1,5 +1,8 @@
- const button = document.getElementById("btn");
+// 1.Change text
+const button = document.getElementById('btn');
 
-      button.addEventListener("click", () => {
-        console.log("clicked");
-      });
+button.addEventListener('click', () => {
+  button.textContent = 'Done';
+
+  console.log('done');
+})
