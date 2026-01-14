@@ -1,8 +1,9 @@
-// 1.Change text
+// 2. Counter
 const button = document.getElementById('btn');
 
-button.addEventListener('click', () => {
-  button.textContent = 'Done';
+let count = 0;
 
-  console.log('done');
-})
+button.addEventListener('click', () => {
+  count++
+  console.log(count);
+});
