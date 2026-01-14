@@ -1,9 +1,6 @@
-// 2. Counter
+// 3. Color toggle
 const button = document.getElementById('btn');
 
-let count = 0;
-
 button.addEventListener('click', () => {
-  count++
-  console.log(count);
+  document.body.style.background = "lightgray";
 });
